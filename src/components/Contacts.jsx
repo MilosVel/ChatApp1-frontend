@@ -22,8 +22,9 @@ export default function Contacts({ contacts, changeChat }) {
       {currentUserImage && currentUserImage && (
         <Container>
           <div className="brand">
-            <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            {/* <img src={Logo} alt="logo" />
+            <h3>snappy</h3> */}
+            <h1>Milos Velickovic ChatApp</h1>
           </div>
 
           <div className="contacts">
